@@ -13,6 +13,4 @@ configuration:
   const-providers:
   - ""
   const_azure-system_managed_identity: false
-actionTemplateName: "Custom script"
-actionTemplateNamespace: "com.vmware.automation.abx"
 memoryInMB: 150
