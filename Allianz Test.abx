@@ -1,0 +1,14 @@
+---
+exportVersion: "1"
+exportId: "8a5eb47677241176017761c2dc9459b3"
+name: "Allianz Test"
+runtime: "python"
+entrypoint: "handler"
+inputs:
+  target: "World"
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 300
